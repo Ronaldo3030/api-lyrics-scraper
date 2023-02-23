@@ -36,5 +36,3 @@ Para utilizar a aplicação, siga estas etapas:
 * `public/`: pasta contendo os arquivos estáticos (CSS, imagens, etc).
 * `views/`: pasta contendo os arquivos de visualização (HTML).
 * `routes/lyrics.js`: arquivo que contém as rotas para acessar a letra da música.
-## Licença
-Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE.md para mais detalhes.
