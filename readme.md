@@ -30,6 +30,19 @@ Para utilizar a aplicação, siga estas etapas:
 1. Acesse a página inicial em seu navegador.
 2. Digite o nome da música que deseja obter a letra e clique em "Buscar".
 3. Se a música for encontrada, a letra será exibida na página.
+
+A rota principal da API é /lyric/:nome-da-musica, onde :nome-da-musica é o nome da música que você deseja obter a letra.
+Exemplo de solicitação:
+```sh
+GET /lyric/Billie-Jean
+
+```
+Exemplo de resposta:
+```sh
+{
+  "lyric": "She was more like a beauty queen from a movie scene"
+}
+```
 ## Estrutura do projeto
 * `index.js`: arquivo principal que configura e inicia o servidor Express.
 * `controllers/lyricsController.js`: arquivo que contém a lógica para obter a letra da música solicitada.
