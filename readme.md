@@ -26,11 +26,6 @@ npm start
 ```
 6. Acesse a aplicação em seu navegador, na url http://localhost:3000
 ## Utilização
-Para utilizar a aplicação, siga estas etapas:
-1. Acesse a página inicial em seu navegador.
-2. Digite o nome da música que deseja obter a letra e clique em "Buscar".
-3. Se a música for encontrada, a letra será exibida na página.
-
 A rota principal da API é /lyric/:nome-da-musica, onde :nome-da-musica é o nome da música que você deseja obter a letra.
 Exemplo de solicitação:
 ```sh
