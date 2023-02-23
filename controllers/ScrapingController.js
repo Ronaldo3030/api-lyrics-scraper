@@ -22,7 +22,6 @@ class ScrapingController {
     await page.goto(`${linkSite}/?q=${musicName}`);
     await page.waitForSelector('.gs-title');
     await page.click('.gs-title > a');
-    await page.waitForSelector('.cnt-head');
     const url = page.url();
     const lyric = await page.$(url.includes("traducao.html") ? '.cnt-trad_l' : '.cnt-letra');
     let value = await page.evaluate(el => el.innerText, lyric)
