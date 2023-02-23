@@ -31,8 +31,6 @@ Para utilizar a aplicação, siga estas etapas:
 2. Digite o nome da música que deseja obter a letra e clique em "Buscar".
 3. Se a música for encontrada, a letra será exibida na página.
 ## Estrutura do projeto
-* `app.js`: arquivo principal que configura e inicia o servidor Express.
+* `index.js`: arquivo principal que configura e inicia o servidor Express.
 * `controllers/lyricsController.js`: arquivo que contém a lógica para obter a letra da música solicitada.
-* `public/`: pasta contendo os arquivos estáticos (CSS, imagens, etc).
-* `views/`: pasta contendo os arquivos de visualização (HTML).
-* `routes/lyrics.js`: arquivo que contém as rotas para acessar a letra da música.
+* `routes.js`: arquivo que contém as rotas para acessar a letra da música.
